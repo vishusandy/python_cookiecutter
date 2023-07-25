@@ -10,7 +10,11 @@ Includes:
 - README stub
 - git initialization
 
-![Prompts](py_cookie_prompts)
+Prompts:
+
+![Prompts](py_cookie_prompts.png)
+
+Directory layout:
 
 ![Project layout](py_cookie_layout.png)
 
