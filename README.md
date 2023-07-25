@@ -1,10 +1,20 @@
 # Python Cookiecutter Template
 
-Creates a basic python project with a src layout.  Includes license, tests, pyproject.toml, git, and a README stub.
+A [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/README.html) template for a basic python project with a [src layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/).
 
-## Prerequisites
+Includes:
 
-[Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/README.html) must be installed:
+- pyproject.toml
+- test directory
+- license (Apache-2.0, MIT, BSD-3-Clause, or none)
+- README stub
+- git initialization
+
+![Project layout](py_cookie.png)
+
+### Prerequisites
+
+[Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/installation.html) must be installed:
 
 ```bash
 pip install --user cookiecutter
@@ -30,7 +40,7 @@ alias pyp="cookiecutter https://github.com/vishusandy/python_cookiecutter"
 
 which would be called by running `pyp` in the terminal.
 
-## .cookiecutterrc
+### .cookiecutterrc
 
 I recommend the following for your [`~/.cookiecutterrc`](https://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html) file:
 
