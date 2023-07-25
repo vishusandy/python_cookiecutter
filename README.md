@@ -32,7 +32,7 @@ which would be called by running `pyp` in the terminal.
 
 ## .cookiecutterrc
 
-I recommend the following for your [`~/.cookiecutterrc`](hhttps://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html) file:
+I recommend the following for your [`~/.cookiecutterrc`](https://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html) file:
 
 ```
 default_context:
