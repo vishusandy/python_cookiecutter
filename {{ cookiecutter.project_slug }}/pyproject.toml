@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "{{ cookiecutter.project_slug }}"
+readme = "README.md"
+requires-python = ">={{ cookiecutter.python_version }}"
+license = { text = "{{ cookiecutter.license }}" }
+version = "0.1.0"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
