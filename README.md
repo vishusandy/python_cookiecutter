@@ -18,6 +18,7 @@ Directory layout:
 
 ![Project layout](py_cookie_layout.png)
 
+
 ### Prerequisites
 
 [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/installation.html) must be installed:
@@ -25,6 +26,7 @@ Directory layout:
 ```bash
 pip install --user cookiecutter
 ```
+
 
 ## Usage
 
@@ -36,15 +38,6 @@ cookiecutter https://github.com/vishusandy/python_cookiecutter
 
 You will be prompted for project information.
 
-### Alias
-
-Personally I find a bash alias makes this easier:
-
-```bash
-alias pyp="cookiecutter https://github.com/vishusandy/python_cookiecutter"
-```
-
-which would be called by running `pyp` in the terminal.
 
 ### .cookiecutterrc
 
@@ -57,3 +50,13 @@ default_context:
     license: "Apache-2.0"
 ```
 
+
+### Alias
+
+Personally I find a bash alias makes this easier:
+
+```bash
+alias pyp="cookiecutter https://github.com/vishusandy/python_cookiecutter"
+```
+
+which would be called by running `pyp` in the terminal.
