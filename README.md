@@ -53,7 +53,7 @@ default_context:
 
 ### Alias
 
-Personally I find a bash alias makes this easier:
+Personally I find a bash alias in your `~/.bashrc` to be helpful:
 
 ```bash
 alias pyp="cookiecutter https://github.com/vishusandy/python_cookiecutter"
