@@ -11,11 +11,8 @@ if [ "$SCRIPT_DIR" != "$PWD" ]; then
     cd "$SCRIPT_DIR" || quit
 fi
 
-if [ ! -d ".venv" ]; then
-    python -m venv .venv
+proj=$(basename "${SCRIPT_DIR}")
 
-    #shellcheck disable=SC1091
-    source .venv/bin/activate
-fi
+echo "$proj"
 
-pip install --editable .
+python3 -m src."$proj".main "$@"
